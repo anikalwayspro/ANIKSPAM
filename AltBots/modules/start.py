@@ -14,7 +14,8 @@ START_BUTTON = [
     [
         Button.url("😴 ʀᴇᴘᴏ 😴", "https://github.com/anikalwayspro/ANIKSPAM")
     ],
-        Button.url(" 🚩 Group Help bot 🚩", "https://t.me/groupcontrollertgbot?startgroup=true")
+        [
+            Button.url(" 🚩 Group Help bot 🚩", "https://t.me/groupcontrollertgbot?startgroup=true")
    ]
 ]
 
