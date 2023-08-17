@@ -7,18 +7,20 @@ HELP_STRING = f"★ 𝙓𝘽𝙤𝙩𝙨 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n
 
 HELP_BUTTON = [
     [
-      Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
-      Button.inline("• ʀᴀɪᴅ •", data="raid")
+      Button.inline("💛 ꜱᴘᴀᴍ 💛", data="spam"),
+      Button.inline("🌈 ʀᴀɪᴅ 🌈", data="raid")
     ],
     [
-      Button.inline("• ᴇxᴛʀᴀ •", data="extra")
+      Button.inline("🌊 ᴇxᴛʀᴀ 🌊", data="extra")
     ],
     [
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TheAltron"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/AltronChats")
-    ]
+      Button.url("🌩️ ᴄʜᴀɴɴᴇʟ 🌩️", "https://t.me/anik_x_suoporttt"),
+      Button.url("🌨️sᴜᴘᴘᴏʀᴛ 🌨️", "https://t.me/anik_x_suoporttt")
+    ],
+    [
+        Button.url("💛 Group help Bot 💛", "https://t.me/groupcontrollertgbot?startgroup=true")
   ]
-
+]
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -34,7 +36,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://te.legra.ph/file/07d39b85c6cea32f15259.jpg",
+              "https://te.legra.ph/file/6ce08db6fd3262aa8f8df.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
