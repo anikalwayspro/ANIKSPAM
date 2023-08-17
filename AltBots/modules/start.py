@@ -8,7 +8,7 @@ START_BUTTON = [
         Button.inline("🫂 ᴄᴏᴍᴍᴀɴᴅs 🫂", data="help_back")
     ],
     [
-        Button.url("⭐ ᴄʜᴀɴɴᴇʟb⭐", "https://t.me/anik_x_suoporttt"),
+        Button.url("⭐ ᴄʜᴀɴɴᴇʟ ⭐", "https://t.me/anik_x_suoporttt"),
         Button.url("🚩sᴜᴘᴘᴏʀᴛ 🚩", "https://t.me/anik_x_suoporttt")
     ],
     [
